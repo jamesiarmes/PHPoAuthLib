@@ -48,6 +48,16 @@ class Google extends AbstractService
     const SCOPE_DRIVE_READ_ONLY             = 'https://www.googleapis.com/auth/drive.readonly';
     const SCOPE_DRIVE_SCRIPTS               = 'https://www.googleapis.com/auth/drive.scripts';
 
+    // Google Fit
+    const SCOPE_FITNESS_ACTIVITY_READ       = 'https://www.googleapis.com/auth/fitness.activity.read';
+    const SCOPE_FITNESS_ACTIVITY_WRITE      = 'https://www.googleapis.com/auth/fitness.activity.write';
+    const SCOPE_FITNESS_BODY_READ           = 'https://www.googleapis.com/auth/fitness.body.read';
+    const SCOPE_FITNESS_BODY_WRITE          = 'https://www.googleapis.com/auth/fitness.body.write';
+    const SCOPE_FITNESS_LOCATION_READ       = 'https://www.googleapis.com/auth/fitness.location.read';
+    const SCOPE_FITNESS_LOCATION_WRITE      = 'https://www.googleapis.com/auth/fitness.location.write';
+    const SCOPE_FITNESS_NUTRITION_READ      = 'https://www.googleapis.com/auth/fitness.nutrition.read';
+    const SCOPE_FITNESS_NUTRITION_WRITE     = 'https://www.googleapis.com/auth/fitness.nutrition.write';
+
     // Adwords
     const SCOPE_ADSENSE                     = 'https://www.googleapis.com/auth/adsense';
     const SCOPE_ADWORDS                     = 'https://www.googleapis.com/auth/adwords';
